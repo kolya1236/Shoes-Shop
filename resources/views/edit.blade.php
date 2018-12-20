@@ -1,6 +1,6 @@
 @include('layouts/header')
 @foreach($single_shoes as $shoes)
-    <form method="POST" action="../edit" class="container admin_panel" enctype="multipart/form-data">	
+    <form method="POST" action="{{asset('edit')}}" class="container admin_panel" enctype="multipart/form-data">	
     	
 
     	{{-- GENERATE TOKEN AND METHOD --}}

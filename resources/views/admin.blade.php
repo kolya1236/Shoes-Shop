@@ -19,14 +19,14 @@
                 <div class="col-md-1 col-md-offset-2">{{$u->name}}</div>
                 <div class="col-md-2">{{$u->email}}</div>
                 <div class="col-md-2">{{$u->admin}}</div>
-                <a href="../admin/changeRights/{{$u->id}}/{{$u->admin}}" class="col-md-2 col-xs-12 row">
+                <a href="{{asset('/admin/changeRights')}}/{{$u->id}}/{{$u->admin}}" class="col-md-2 col-xs-12 row">
                     @if(0 == $u->admin)
                         <button class="col-md-12 button">Make admin</button>
                     @else
                         <button class="col-md-12 button">Make user</button>
                     @endif
                 </a>
-                <a href="../admin/delete/{{$u->id}}" class="col-md-2 col-xs-12 row">
+                <a href="{{asset('/admin/delete')}}/{{$u->id}}" class="col-md-2 col-xs-12 row">
                     <button class="col-md-12 button">Delete user</button>
                 </a>
             </div>
