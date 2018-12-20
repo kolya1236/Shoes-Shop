@@ -1,0 +1,78 @@
+.shoes{
+	.col-md-12{
+		padding: 0;
+	}
+
+	a.col-md-12{
+		margin-top: 20px;
+	}
+
+	.col-md-3, .col-md-auto, .col-md-5, .col-md-9{
+		padding: 0;
+		margin: 0;
+	}
+
+	.col-md-5:last-child{
+		margin-left: 29px;
+	}
+
+	.col-md-5{
+		margin-top: 10px;
+	}
+
+	.col-md-6{
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	.oneShoes{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		background-color: #fff;
+		border: 2px solid #4de2ea;
+		border-radius: 10px;
+		padding-bottom: 15px;
+	}
+
+	a{
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #636B6E !important;
+	}
+
+	.name, .price{
+		font-weight: 900;
+	}
+
+	.name{
+		margin-top: 15px;
+	}
+
+	.category{
+		font-size: 20px;
+	}
+	.category:hover{
+		text-decoration: underline !important;
+	}
+	.categories{
+		background-color: #fff;
+		border: 2px solid #4de2ea;
+		border-radius: 10px;
+		margin-bottom: 10px;
+		word-wrap: break-word;
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.shoesContainer{
+		border: 2px solid #4de2ea;
+		border-radius: 10px;
+		background-color: #e5d75b;
+	}
+
+	.col-md-2{
+		margin-right: 30px;
+	}
+	.col-md-2:last-child{
+		margin-right: 0;
+	}
+}
