@@ -20,14 +20,14 @@
     <body>
         <header class="container-fluid">
             <div class="top-right text-center row links">
-                    <a href="{{asset('/')}}" class="col-md-4 col-xs-12 title col-md-offset-1 col-xs-offset-0 h4">Best online shoes shop in internet</a>
+                    <a href="{{asset('/')}}" class="col-md-4 col-xs-12 title col-md-offset-1 col-sm-offset-0 col-xs-offset-0 h4">Best online shoes shop in internet</a>
                 @guest
-                    <div class="row col-md-3 col-md-offset-3 col-xs-offset-0 col-xs-12">
-                        <a class="h4 col-md-2 col-md-offset-6 col-xs-offset-0 col-xs-12" href="{{ route('login') }}">Login</a>
-                        <a class="h4 col-md-2 col-xs-12" href="{{ route('register') }}">Register</a>
+                    <div class="row col-md-3 col-md-offset-2 col-xs-offset-0 col-xs-12">
+                        <a class="h4 col-md-4 col-md-offset-1 col-xs-offset-0 col-xs-12" href="{{ route('login') }}">Login</a>
+                        <a class="h4 col-md-4 col-xs-12" href="{{ route('register') }}">Register</a>
                     </div>
                 @else
-                    <a href="{{asset('cart')}}" class="col-md-1 col-md-offset-3 col-xs-offset-0 col-xs-12 h4">Cart <i class="fas fa-shopping-cart"></i>({{$quantity}})</a>
+                    <a href="{{asset('cart')}}" class="col-md-1 col-md-offset-2 col-xs-offset-0 col-xs-12 h4">Cart <i class="fas fa-shopping-cart"></i>({{$quantity}})</a>
 
                     <a class="col-md-1 col-xs-12 h4" href="{{asset('logout')}}">Log out</a>
                 @endguest
@@ -36,4 +36,3 @@
                 @endif
             </div>
         </header>
-        <div id="app"></div>

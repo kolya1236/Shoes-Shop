@@ -29,4 +29,11 @@ header{
 	text-transform: uppercase;
 	font-weight: 900;
 }
-
+.withoutMargin{
+	margin-right: 0;
+	margin-left: 0;
+}
+.withPadding{
+	padding-right: 15px !important;
+	padding-left: 15px !important;
+}
